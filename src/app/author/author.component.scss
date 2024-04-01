@@ -1,0 +1,50 @@
+.author-container{
+    &__header{
+        background-color: #E5DF52;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 154px;
+        padding-top: 14px;
+        & h1{
+            font-size: 48px;
+            color: #313131;
+        }
+    }
+    &__body{
+        margin: auto 58px;
+        padding: 38px 0;
+    }
+    &__profile{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    &__image{
+        width: 300px;
+        height: auto;
+        border-radius: 150px;
+    }
+    &__profile-text{
+        margin: 0 28px;
+    }
+    &__bio{
+        margin: 14px 0;
+    }
+
+    &__return{
+        text-align: center;
+        margin: 24px 0;
+    }
+    &__return-btn{
+        background-color: #E5DF52;
+        color: #6d6200;
+        width: 40%;
+        padding: 6px;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 15px;
+        
+    }
+}
